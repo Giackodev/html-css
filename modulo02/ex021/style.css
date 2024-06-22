@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body{
+    background-color: #420039;
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(36, 1, 33, 0.747);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+/*h1 é um elemento box-level a é um elemento inline-level, podemos alterar a natureza de cada elemento ultilizando 'display:block;' para elementos inline-level e 'display-inline;' para elementos boz-level no inline-level podemos tambem usar um 'display:inline-block;' que é um inline-lelel com algumas caracteristicas de box-level*/
+h1{
+    color: #9ec5ab;
+    background-color: #8e6e53;
+    height: 300px;
+    width: 300px;
+
+    
+    /*em baixo o uso do shorthand*/
+    border: 10px solid #053225;
+    /* O uso do paddind segue o padrão do giro do relogio, de cima para direita para baixo e para esquerda ( -top,-reight,- bottom e -left)*/
+    
+   
+    /*em baixo o uso do shorthand*/
+    /* se as 4 medidas forem iguais você pode simplificar colocando apenas uma vez a medida, se forem diferentes, devem ser descritas as medidas na ordem top, right, bottom e left*/
+    padding: 10px ;
+    
+
+    /*margin: auto; para alinhar a caixa de margem no meio*/
+
+    
+    /*em baixo o uso do shorthand*/
+    /*Caso sejam colocados apenas 2 valores, o primeiro valor representa top e bottom, e o segundo valor representa right e left*/
+    margin: 20px auto 40px auto;
+    
+
+    outline: 5px dashed #9ec5ab;
+    
+}
+a{
+    border: 10px solid yellow;
+
+    padding: 10px;
+}
+h2{
+    color: #9ec5ab;
+}
+p{
+    color: #9ec5ab;
+}

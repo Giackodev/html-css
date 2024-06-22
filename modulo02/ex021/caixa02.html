@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #420039;
+            margin: 0px;
+
+        }
+        header{
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(36, 1, 33, 0.747);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(66, 66, 66, 0.575);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.507);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight:bold ;
+            margin-right: 30px;
+            
+        }
+        main{
+            background-color: white;
+            /* border-radius cria bordas arredondadas na caixa, é composta por 4 medidas equivalentes aos cantos, você pode por parametros diferentes para cada um deles, pode usar apenas dois para manter a mesma medida para top-left/bottom-right e top-right/bottom-left, pode tambem usar a medida de 50% para criar um circulo. */
+            border-radius: 10px 40px;
+            box-shadow: 5px 5px 15px rgba(36, 1, 33, 0.747);
+            margin: auto;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgba(194, 194, 194, 0.514);
+            border-radius: 3px;
+            
+        }
+        article > aside{
+            background-color: rgba(80, 80, 80, 0.692);
+            border-radius: 3px;
+        }
+        footer{
+            background-color: rgb(107, 90, 73);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 5px;
+            border-radius: 3px;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        h1{
+            color: #9ec5ab;      
+        }
+        a{
+            color: yellowgreen;
+            padding: 10px;
+        }
+        h2{
+            color: #9ec5ab;
+        }
+        p{
+            color: #9ec5ab;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptate. Officiis unde nulla facere voluptatem magni mollitia quibusdam obcaecati nostrum debitis doloribus. Alias id esse veritatis aperiam, suscipit facere a!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Giacomo Oliveira</p>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>

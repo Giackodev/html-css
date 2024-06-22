@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to left,#8E6E53,#40013C);
+    font-family: Arial, Helvetica, sans-serif;
+    /*Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relaticas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente é = 1em
+    */
+    /* parametros para font-weight - lighter, normal, bold, bolder
+    Variações numericas de 100 a 900*/  
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+    
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(36, 1, 33, 0.747);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    /*shorthand font - font-style ->font-weght -> font-size -> font-family*/
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    color: #F2C063;
+    text-align: center;
+    text-shadow: 1px 1px 2px #99793fce;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #9EC5AB;
+}
+p{
+    text-align: justify;
+}

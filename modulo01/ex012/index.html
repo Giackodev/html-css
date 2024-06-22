@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(99,79,138);
+        }
+        h1{color: aliceblue;}
+        h2{color: aliceblue;}
+        p{color: aliceblue;}
+    </style>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado localmente</p>
+    <!--<video src="midia/meu-video.webm" width="200" controls></video>
+    <video src="midia/meu-video.mkv" width="200" controls></video>
+    <video src="midia/meu-video.mp4" width="200" controls></video> -->
+    <video width="560" poster="imagens/praia-capa.png" controls autoplay loop>
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.mkv" type="video/mkv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=fL6uXGoHwd38T7-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Essa parte do codigo foi copiada do Youtube por meio opção de incorporação-->
+</body>
+</html>
